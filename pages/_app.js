@@ -1,3 +1,5 @@
+//Handles Global Styling
+
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
