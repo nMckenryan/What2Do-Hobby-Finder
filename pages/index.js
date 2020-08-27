@@ -35,7 +35,7 @@ export default function Home({ allPostsData }) {
           <Grid item xs={4}>
             <Card>
               <CardActionArea>
-                <Link href="/posts/post.js">
+                <Link href="/articles/[id]" as="/articles/test">
                   <div>
                     <h3>Strategy Games</h3>
                     <p>
@@ -120,24 +120,6 @@ export default function Home({ allPostsData }) {
           </Grid>
         </Grid>
       </main>
-
-      {/* FOR GRAY MATTER */}
-      <section className={utilStyles.headingMd}>…</section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              {title}
-              <br />
-              {id}
-              <br />
-              {date}
-            </li>
-          ))}
-        </ul>
-      </section>
-      {/*  */}
     </Layout>
   );
 }
