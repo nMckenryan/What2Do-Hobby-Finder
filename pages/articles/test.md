@@ -1,13 +1,27 @@
 ---
-title: "Tabletop Gaming"
+title: "Wargaming"
 expense: "Medium - High"
+imgPath: "tableTop.png"
+subtitle: "It's like X-COM, but with miniatures"
 ---
 
-![TestImage](./images/tableTop.png)
+Welcome to the world of Tabletop Gaming! Famously played by many of history's
 
-Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
+Invented in the 19th Century in Prussia (now Germany), Wargaming has helped modern militaries prepare for their engagements.
 
-- **Static Generation** is the pre-rendering method that generates the HTML at **build time**. The pre-rendered HTML is then _reused_ on each request.
-- **Server-side Rendering** is the pre-rendering method that generates the HTML on **each request**.
+The most famous Wargames are Warhammer: Age of Sigmar, a High Fantasy Setting, and it's Sci-Fi Fantasy Counterpart, Warhammer 40k.
 
-Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
+While Popular, Warhammer of both varietals is incredibly expensive (~\1000k for a full army, but 'Skirmish' Modes are much cheaper)
+
+If you're strapped for cash, you can also try 'Kings of War', which is MUCH cheaper.
+
+Many people also forgo the 'game', and focus on painting the miniatures themselves.
+
+- Warhammer: Age of Sigmar
+- Warhammer 40,0000
+- Kings of War
+- Bolt Action (World War 2 Themed)
+- Flames of War (World War 2, Vehicle Based)
+- Star Wars X-Wing, and Star Wars Legion
+
+Check out online for more guides, or swing by your friendly local game shop.
