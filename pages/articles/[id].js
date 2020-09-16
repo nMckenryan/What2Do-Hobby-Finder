@@ -3,7 +3,6 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import Link from "next/link";
 import utilStyles from "../../styles/utils.module.css";
-import tabletop from "../../public/images/tableTop.png";
 
 export default function Post({ postData }) {
   return (
@@ -13,7 +12,7 @@ export default function Post({ postData }) {
       </Head>
       <article>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <img href="../images/tableTop.png" alt={tabletop}></img>
+        {/* <img href="../images/tableTop.png" alt={tabletop}></img> */}
         <h2 className={utilStyles.headingL}>{postData.subtitle}</h2>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
